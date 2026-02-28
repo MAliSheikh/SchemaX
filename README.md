@@ -33,13 +33,13 @@ This project relies on a modern Python stack:
 2. **Create a virtual environment**
    ```bash
    # Windows
-   python -m venv .venv
-   .venv\Scripts\activate
+   Chnage name in pyproject.toml file
    ```
 
 3. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   uv sync
+   .venv\Scripts\activate
    ```
 
 4. **Configuration**
